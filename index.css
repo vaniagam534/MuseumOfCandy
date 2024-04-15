@@ -1,0 +1,114 @@
+body
+{
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9d7e2;
+    margin:0;
+    box-sizing: border-box;
+      
+
+}
+
+#mynavbar
+{
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+      
+}
+.nav-link:hover
+{
+color:red;
+}
+
+
+#mynavbar.scrolled
+{
+    background-color:#fa99ae  ;
+    transition: background 0.5s;
+  
+}
+.navbar-brand
+{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color:red;
+    margin-bottom: 7%;
+  
+ 
+   
+}
+@media screen and (min-width: 480px) {
+   
+    .nav-link
+{
+    color:white;
+    font-size:inherit;
+    text-transform: uppercase;
+    font-weight:100;
+    /* margin-bottom: 7%; */
+  
+}
+}
+@media screen and (max-width: 480px) {
+    .nav-link {
+     color:rgb(24, 3, 18);
+     }
+   }
+ 
+
+
+
+h1{
+    color:white;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    line-height: 2.5px;
+   
+    
+    
+}
+
+
+
+h1 span
+{
+    color:red;
+}
+
+
+
+h2 
+{
+    color:rgb(253, 72, 72);
+    font-weight: 100;
+    text-transform: uppercase;
+    margin:15px auto;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    text-align: center;
+
+
+}
+ 
+p.lead
+{
+color:rgb(243, 59, 193);
+font-size: 1.5rem;
+
+}
+
+
+#icon
+{
+    width:100px;
+    height: 100px;
+    object-fit: contain;
+    margin:5% auto;
+    
+}
+section
+{
+   margin:5%;
+   
+}
